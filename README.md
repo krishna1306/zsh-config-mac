@@ -18,7 +18,7 @@ https://github.com/romkatv/gitstatus#using-from-zsh
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/gitstatus.git ~/gitstatus
-echo 'source ~/gitstatus/gitstatus.prompt.zsh' >>! ~/.zshrc
+echo 'source ~/gitstatus/gitstatus.prompt.zsh' >> ~/.zshrc
 ```
 
 Content from above link is already part of `.zshrc` file in the repo.
