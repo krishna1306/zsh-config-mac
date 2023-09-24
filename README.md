@@ -2,7 +2,7 @@
 
 https://ohmyz.sh
 
-# Install Powerlevel10K team
+# Install Powerlevel10K theme
 
 https://github.com/romkatv/powerlevel10k#oh-my-zsh
 
