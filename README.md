@@ -10,6 +10,15 @@ https://github.com/romkatv/powerlevel10k#oh-my-zsh
 
 All steps are clearly indicated in the github repo link above.
 
+# Show Python VENV on the terminal (flags)
+
+Within the `.p10k.zsh` configuration file, make sure the configuration file has the below settings.
+
+```
+  typeset -g POWERLEVEL9K_VIRTUALENV_SHOW_PYTHON_VERSION=false
+  typeset -g POWERLEVEL9K_VIRTUALENV_SHOW_WITH_PYENV=true
+```
+
 # Install additional plugins
 
 Below two plugins are present in `.zshrc` plugins list, but not part of `.oh-my-zsh/plugins` directory.
