@@ -2,6 +2,14 @@
 
 https://ohmyz.sh
 
+# Install Powerlevel10K team
+
+https://github.com/romkatv/powerlevel10k#oh-my-zsh
+
+> Install "Menlo" font and do the initial configuration using `p10k configure` (it is usually auto-launched)
+
+All steps are clearly indicated in the github repo link above.
+
 # Install additional plugins
 
 Below two plugins are present in `.zshrc` plugins list, but not part of `.oh-my-zsh/plugins` directory.
@@ -22,5 +30,5 @@ echo 'source ~/gitstatus/gitstatus.prompt.zsh' >> ~/.zshrc
 ```
 
 Content from above link is already part of `.zshrc` file in the repo.
-But do the `git clone` if trying on a different laptop. 
+But do the `git clone` if trying on a different laptop.
 No need for `source` command, as the command is part of `.zshrc` already.
